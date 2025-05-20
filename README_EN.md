@@ -1,13 +1,14 @@
 # Bopomofo Keyboard Converter
 
-A web application that converts Chinese characters into Bopomofo (Zhuyin) keyboard input positions. It displays both the Bopomofo symbols and their corresponding keyboard keys, helping users understand how to type Chinese characters using the Bopomofo input method.
+A web application that converts Chinese characters into Bopomofo (Zhuyin) keyboard input positions. It displays both the keyboard keys and Bopomofo symbols, helping users understand how to type Chinese characters using the Bopomofo input method.
 
 ## Features
 
 - Real-time Conversion: Instant display of results as you type
-- Dual Display: Shows both Bopomofo symbols and keyboard keys
+- Dual Display: Shows both keyboard keys and Bopomofo symbols
 - Network Access: Supports access from other devices on the local network
 - Responsive Design: Adapts to various screen sizes
+- Clean Interface: Clear labels and result display
 
 ## System Requirements
 
@@ -35,14 +36,21 @@ python app.py
    - Network access: `http://[Your_IP_Address]:5000`
 
 3. Type Chinese characters in the input box, and the system will automatically display:
-   - Left side: Bopomofo symbols
-   - Right side: Corresponding keyboard keys
+   - Top: Keyboard keys
+   - Bottom: Bopomofo symbols
 
 ## Example
 
 Input "你好" (hello) will show:
-- Bopomofo: ㄋㄧˇ ㄏㄠˇ
 - Keyboard keys: su3 cl3
+- Bopomofo: ㄋㄧˇ ㄏㄠˇ
+
+## Interface Description
+
+- Input Box: Located at the top of the page for entering Chinese characters
+- Result Display:
+  - Keyboard Keys: Shows the key combinations to press
+  - Bopomofo Symbols: Shows the corresponding Bopomofo symbols
 
 ## Notes
 
@@ -76,11 +84,15 @@ MIT License
 
 ## Author
 
-[Your Name]
+[cllodh](https://github.com/Cllodh)
 
 ## Version History
 
 - v1.0.0 (2024-03-xx)
   - Initial release
   - Basic conversion functionality
-  - Network access support 
+  - Network access support
+- v1.1.0 (2024-03-xx)
+  - Optimized interface design
+  - Adjusted display order
+  - Improved responsive layout 
