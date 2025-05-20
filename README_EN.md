@@ -1,3 +1,6 @@
+# Can be used directly
+https://quickly-favg.onrender.com
+
 # Bopomofo Keyboard Converter
 
 A web application that converts Chinese characters into Bopomofo (Zhuyin) keyboard input positions. It displays both the keyboard keys and Bopomofo symbols, helping users understand how to type Chinese characters using the Bopomofo input method.
